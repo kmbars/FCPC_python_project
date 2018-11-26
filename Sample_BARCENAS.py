@@ -1,20 +1,3 @@
-CCS 1A Programming 2
-CCS 1A
-Due Nov 20, 9:10 AM
-Upload Source Code -- Sample code from Declaration to If-Else-Else If
-
-Haisoj Nayahub
-Nov 20
-Code
-Your work
-Turned in late
-
-Sample_BARCENAS.py
-Text
-Private comments
-
-Kirsten BarcenasNov 20
-LEGEND AKO
 
 Name = "Km The Legend"
 Age = "12"
@@ -52,5 +35,4 @@ elif subtraction > modulus:
     print("eto yung tamang sagot")
 else:
     print("km the LEGEND")
-Sample_BARCENAS.py
-Displaying Sample_BARCENAS.py.
+

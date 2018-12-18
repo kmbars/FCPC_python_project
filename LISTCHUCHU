@@ -1,0 +1,41 @@
+def populatelist():
+    listX=["bde", "cef","dfg"]
+    return listX
+    
+listY=populatelist()
+print(listY)
+
+def reducelist():
+    listZ=populatelist()
+    listZ.append("ghixxxxxxxxx")
+    return listZ
+    
+print(reducelist())
+
+def abc():
+    print("hi")
+    
+abc()
+
+def toRomanNum(x):
+    if x<=20:
+            if x==20:
+                print("xx")
+            elif x<20 and x>10:
+                print(x)
+                y=x-10
+                toRomanNum(y)
+            elif x==9:
+                print("ix")
+            elif x<9 and x>5:
+                print("v")
+                a=x-5
+                toRomanNum(9)
+            elif x<5 and x>0:
+                print("1")
+                b=x-1
+                toRomanNum(b)
+            else:
+                print()
+                toRomanNum(18)
+                "XVIII"

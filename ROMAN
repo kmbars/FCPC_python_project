@@ -1,0 +1,31 @@
+def toRomanNum(x):
+    if x <= 200:
+        if x == 100:
+            print("CC", end="")
+        elif x < 200 and x >= 100:
+            print("C", end="")
+            y = x - 100
+            toRomanNum(y)
+        elif x == 99:
+            print("L", end="")
+        elif x < 99 and x > 50:
+            print("L", end="")
+            a = x - 50
+            toRomanNum(a)
+        elif x < 49 and x > 10:
+            print("X", end="")
+            b = x - 10
+            toRomanNum(b)
+        elif x < 9 and x > 5:
+            print("V", end="")
+            c = x - 5
+            toRomanNum(c)
+        elif x < 4 and x > 0:
+            print("I", end="")
+            d = x - 1
+            toRomanNum(d)
+        else:
+            print()
+
+
+toRomanNum(198)

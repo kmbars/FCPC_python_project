@@ -1,0 +1,58 @@
+
+Your assignment has been turned inTurning in…
+productlist = ["Malboro", "Winston", "Fortune"]
+pricelist = [120,50,60]
+
+for x in range(3):
+    print((x + 1), ".", productlist[x], "-", pricelist[x])
+
+print()
+select = input("Select: ")
+
+if select == "1":
+    quantity = int(input("Quantity: "))
+    total = price[0] * quantity
+    print("Total: ", total)
+    inputMoney = int(input("Enter money: "))
+    if inputMoney >= total:
+        print("Change: ", inputMoney - total)
+    else:
+        print("Not enough money")
+elif select == "2":
+    quantity = int(input("Quantity: "))
+    total = price[1] * quantity
+    print("Total: ", total)
+    inputMoney = int(input("Enter money: "))
+    if inputMoney >= total:
+        print("Change: ", inputMoney - total)
+    else:
+        print("Not enough money")
+elif select == "3":
+    quantity = int(input("Quantity: "))
+    total = price[2] * quantity
+    print("Total: ", total)
+    inputMoney = int(input("Enter money: "))
+    if inputMoney >= total:
+        print("Change: ", inputMoney - total)
+    else:
+        print("Not enough money")
+elif select == "4":
+    quantity = int(input("Quantity: "))
+    total = price[3] * quantity
+    print("Total: ", total)
+    inputMoney = int(input("Enter money: "))
+    if inputMoney >= total:
+        print("Change: ", inputMoney - total)
+    else:
+        print("Not enough money")
+elif select == "5":
+    quantity = int(input("Quantity: "))
+    total = price[4] * quantity
+    print("Total: ", total)
+    inputMoney = int(input("Enter money: "))
+    if inputMoney >= total:
+        print("Change: ", inputMoney - total)
+    else:
+        print("Not enough money")
+else:
+    print("Invalid choice")

@@ -1,0 +1,23 @@
+
+print ("Name list")
+list1 = ["Km","karry","carlo","nikki"]
+for x in list1:
+    print(x)
+
+print()
+print ("Smart Phone list")
+SPlist2 = ["Samsung","LG","Oppo","Vivo"]
+for x in SPlist2:
+    print(x)
+
+print()
+print ("Car list")
+Clist3 = ["Montero","Honda Civic","Mazda3","Mazda6"]
+for x in Clist3:
+    print(x)
+
+print()
+print ("Number list")
+Nlist4 = ["9","10","11","12"]
+for x in Nlist4:
+    print(x)
